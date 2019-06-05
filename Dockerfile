@@ -10,6 +10,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./src /app
 
-RUN adduser -D user
-USER user
+#RUN adduser -D user
+#USER user
 #or  you can directly set like that # USER your_username_here
+USER 90538
